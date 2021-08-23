@@ -16,6 +16,7 @@ class User:
         self.created_at= data["created_at"]
         self.updated_at= data["updated_at"]
     
+    
     @staticmethod
     def validate_user(user):
         is_valid = True
